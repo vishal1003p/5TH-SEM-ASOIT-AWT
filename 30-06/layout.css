@@ -1,0 +1,170 @@
+* {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+#r1 {
+    background-color: whitesmoke;
+    height: 50px;
+    /*padding-top: 22px;*/
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#r2 {
+    background-color: aquamarine;
+    height: 35px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#r3 {
+    background-color: rgb(253, 214, 152);
+    height: 85px;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#r4 {
+    height: 500px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#r4 div {
+    background-color: aqua;
+    height: 500px;
+    /* padding-top: 225px; */
+    /* text-align: center; */
+    float: left;
+}
+
+#r4c1 {
+    width: 32%;
+    margin-right: 2%;
+    background-color: aqua;
+    position: relative;
+    animation: rotate 2s linear;
+    object-fit: contain;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#r4c2 {
+    width: 32%;
+    margin-right: 2%;
+    position: relative;
+    animation: mymove 3s;
+    animation-iteration-count: 5;
+}
+
+#r4c3 {
+    width: 32%;
+    background-color: aqua;
+    position: relative;
+    animation: rotate 2s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 200px;
+    }
+}
+
+#r5 {
+    background-color: rgb(58, 55, 55);
+    height: 33px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(231, 71, 71);
+}
+
+img {
+    /* max-width: 100%; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#logo {
+    width: fit-content;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    padding-right: 86%;
+}
+
+#img1 {
+    object-fit: fill;
+}
+
+#img2 {
+    object-fit: fill;
+}
+
+#img3 {
+    object-fit: fill;
+}
+
+#icon1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+}
+
+#logo2 {
+    width: fit-content;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+}
