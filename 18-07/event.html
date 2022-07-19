@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>events</title>
+<style>
+    #demo2 {
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:#64d83d;color:black;width:110px;height:30px;padding:55px;justify-content:center;text-align: center;font-size:  18px; margin: auto;">
+        MOUSE OVER HERE</div>
+
+    <script>
+        function mOver(obj) {
+            obj.innerHTML = "HELLO..!"
+        }
+
+        function mOut(obj) {
+            obj.innerHTML = "MOUSE OVER HERE"
+        }
+    </script>
+
+    <p id="demo2" onclick="myFunction()">Click me to change my text color.</p>
+
+    <!-- <p>A function is triggered when the p element is clicked. The function sets the color of the p element to red.</p> -->
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo2").style.color = "red";
+        }
+    </script>
+
+
+</body>
+
+</html>
